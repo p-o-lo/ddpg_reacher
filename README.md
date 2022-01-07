@@ -3,6 +3,7 @@ The repository contains an implementation of DDPG (Deep Deterministic Policy Gra
 The aim is to train a double jointed arm to catch as many objects as possible.
 A wide description of the Reacher Unity environments is on [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents).
 
+![This is an image](ezgif-2-aed3b9592d.gif)
 
 ## Descritpion of the environment
 
