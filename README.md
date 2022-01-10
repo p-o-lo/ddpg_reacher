@@ -17,7 +17,7 @@ Two versions of the Unity Reacher Environment are availble
 - The second one contains 20 different agents
 
 In this porject we use the second one. Thanks to this version we can train the 20 agents in parallel sharing the experiences collected in a memory buffer. 
- A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
+ A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.  We consider the environment solved if the agents get an average score of +30 (over 100 consecutive episodes, and over all agents). In particular after each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores. This yields an average score for each episode (where the average is over all 20 agents). 
 
 ## Files provided
 
