@@ -3,7 +3,7 @@ The repository contains an implementation of DDPG (Deep Deterministic Policy Gra
 The aim is to train a double jointed arm to catch as many objects as possible.
 A wide description of the Reacher Unity environments is on [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents).
 
-![This is an image](ezgif-2-aed3b9592d.gif)
+![This is an image](reacher_trained.gif)
 
 ## Descritpion of the environment
 
@@ -26,7 +26,7 @@ In this porject we use the second one. Thanks to this version we can train the 2
 - **model.py** contains both the actor neural network and the critic neural network
 - **checkpoint_actor.pth** and **checkpoint_critic.pth** which contain the model weights of a successful actor and critic network
 - To run the code properly a **python** folder is provided. The project environment is similar to, but not identical to the Reacher environment on the [Unity ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents). This folder, provided by the [Reinforcement Learning Nanodegree progam of **Udacity**]( https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893), there are all the files needed for the installation of the Unity environments. 
-- The **report.pdf** describes the details of the implementation and more ideas about the DDPG algorithm.
+- The **Report_reacher.pdf** describes the details of the implementation and more ideas about the DDPG algorithm.
 
 ## Requirements and installation
 
